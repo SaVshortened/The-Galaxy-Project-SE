@@ -1,4 +1,4 @@
-LogLevel    1
+ogLevel    1
 
 Galaxy "Alcyoneus host galaxy/SDSS J081421.68+522410.0"
 {
@@ -98,4 +98,64 @@ Galaxy "MoM-z14"
     Dist     10398529171
     Radius   260
     AbsMagn  -20.00
+}
+
+Galaxy "Bullseye Galaxy/LEDA 1313424/WISEA J000939.34+070449.2/2MASX J00093930+0704489"
+{
+    Type     "Sb"
+    RA       00 09 39.348
+    Dec      +07 04 49.29
+    Dist     168970000
+    Radius   38300
+    AbsMagn  -21.90
+}
+
+Galaxy "Tinkerbell Triplet/ESO 593-IG 008/The Bird/PGC 62946/IRAS 19115-2124"
+{
+    Type     "Irr"
+    RA       19 14 30.980
+    Dec      -21 19 06.80
+    Dist     200000000
+    Radius   19230
+    AbsMagn  -21.80
+}
+
+Galaxy "Butterfly Galaxy 1/NGC 4567/UGC 7777/MCG 2-32-151/ZWG 70.189"
+{
+    Type     "Sc"
+    RA       12 36 32.040
+    Dec      +11 15 28.08
+    Dist     18100000
+    Radius   8170
+    AbsMagn  -19.19
+}
+
+Galaxy "Butterfly Galaxy 2/NGC 4568/UGC 7776/MCG 2-32-152/ZWG 70.188"
+{
+    Type     "Sc"
+    RA       12 36 33.840
+    Dec      +11 14 23.33
+    Dist     18100000
+    Radius   12094
+    AbsMagn  -19.58
+}
+
+Galaxy "UNCOVER-z12"
+{
+    Type     "Irr"
+    RA       00 14 03.254
+    Dec      -30 21 24.48
+    Dist     10081000000
+    Radius   400
+    AbsMagn  -19.20
+}
+
+Galaxy "UNCOVER-z13"
+{
+    Type     "Irr"
+    RA       00 14 17.009
+    Dec      -30 24 05.69
+    Dist     10188000000
+    Radius   300
+    AbsMagn  -19.40
 }
