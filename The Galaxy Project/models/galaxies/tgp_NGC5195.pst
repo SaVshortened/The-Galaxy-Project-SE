@@ -1,0 +1,58 @@
+GalaxyModel     "NGC5195"
+{
+	UseForObject    "NGC 5195"
+	UseForType	"S0"
+
+	Method      "SpiralGalaxy"
+	Position    (0, 0, 0)
+	Radius      (1.1, 0.15, 0.07)
+	BBoxRes     (8, 8, 8)
+
+	floatLOD    0
+	LODbase     1
+
+	FrontTexture    "NGC5195.*"
+	SysTexture      "NGC5195_sys.*"
+	FrontImage      "NGC5195_small.*"
+	SideImage       "S0_side.*"
+
+	emParticleColor     (1.0, 1.0, 1.0)
+	absParticleColor    (0.08, 0.24, 0.48)
+	bParticleColor      (1.0, 0.9, 0.7)
+	BulgeRadius         (1.0, 1.0, 1.0)
+
+	emDetailR	1.0
+	emDetailZ	0.5
+	absDetailR	1.5
+	absDetailZ	0.5
+	bDetailR	0.75
+	bDetailZ	0.75
+
+	emParticleDispR		0.2
+	emParticleDispZ		0.2
+	absParticleDispR	0.2
+	absParticleDispZ	0.8
+	bParticleDispR		0.3
+	bParticleDispZ		0.3
+
+	emParticleSizeCenter	1.7
+	emParticleSizeEdge		1.5
+	absParticleSizeCenter	1.7
+	absParticleSizeEdge	1.5
+	bParticleSizeCenter		1.7
+	bParticleSizeEdge		1.5
+
+	emParticleMinBrightCenter	0.2
+	emParticleMinBrightEdge		0.01
+	absParticleMinBrightCenter	0.01
+	absParticleMinBrightEdge	0.07
+	bParticleMinBrightCenter	0.5
+	bParticleMinBrightEdge		0.3
+
+	emParticleBrightnessCenter	0.1
+	emParticleBrightnessEdge	0.3
+	absParticleBrightnessCenter	4.0
+	absParticleBrightnessEdge	3.0
+	bParticleBrightnessCenter	0.3
+	bParticleBrightnessEdge		0.0}
+

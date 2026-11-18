@@ -1,0 +1,46 @@
+GalaxyModel     "CentaurusA"
+{
+	UseForObject    "NGC 5128"
+	UseForType	"S0"
+
+	Method      "CubeMap"
+	Position    (0, 0, 0)
+	Radius      (1.0, 1.0, 1.0)
+	BBoxRes     (4, 4, 4)
+
+	useFBO      1
+	floatLOD    1
+	LODbase     50
+
+	CubePosXImage    "CentaurusA_posx.*"
+	CubePosYImage    "CentaurusA_posx.*"
+	CubePosZImage    "CentaurusA_posz.*"
+
+	emParticleColor  (1.0, 0.95, 0.90)
+	absParticleColor (0.08, 0.24, 0.48)
+
+	emDetailR   0.2
+	emDetailZ   0.2
+	absDetailR  2.0
+	absDetailZ  2.0
+
+	emParticleDispR     0.5
+	emParticleDispZ     0.5
+	absParticleDispR    1.0
+	absParticleDispZ    1.0
+
+	emParticleSizeCenter    2.0
+	emParticleSizeEdge      2.0
+	absParticleSizeCenter   2.0
+	absParticleSizeEdge     2.0
+
+	emParticleMinBrightCenter   0.0
+	emParticleMinBrightEdge     0.0
+	absParticleMinBrightCenter  0.1
+	absParticleMinBrightEdge    0.1
+
+	emParticleBrightnessCenter  0.5
+	emParticleBrightnessEdge    0.5
+	absParticleBrightnessCenter 9.0
+	absParticleBrightnessEdge   9.0}
+
